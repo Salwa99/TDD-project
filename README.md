@@ -83,7 +83,7 @@ git clone https://github.com/Salwa99/TDD-project.git
   ```
 ### Run Tests
   ```sh 
-  rspec spec
+  rspec spec solver_spec.rb
   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

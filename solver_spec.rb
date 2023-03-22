@@ -17,4 +17,11 @@ RSpec.describe Solver do
       end
     end
   end
+
+  describe '#reverse' do
+    it 'reverses the given word' do
+      expect(solver.reverse('hello')).to eq('olleh')
+      expect(solver.reverse('microverse')).to eq('esrevorcim')
+    end
+  end
 end

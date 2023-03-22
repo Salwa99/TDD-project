@@ -1,4 +1,4 @@
-require 'solver'
+require_relative 'solver'
 
 RSpec.describe Solver do
   let(:solver) { Solver.new }

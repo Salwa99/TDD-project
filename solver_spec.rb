@@ -44,5 +44,11 @@ RSpec.describe Solver do
         expect(solver.fizzbuzz(10)).to eq('buzz')
       end
     end
+    context 'when given a number that is not divisible by 3 or 5' do
+      it 'returns the number as a string' do
+        expect(solver.fizzbuzz(2)).to eq('2')
+        expect(solver.fizzbuzz(13)).to eq('13')
+      end
+    end
   end
 end

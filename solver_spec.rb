@@ -38,5 +38,11 @@ RSpec.describe Solver do
         expect(solver.fizzbuzz(18)).to eq('fizz')
       end
     end
+    context 'A number that is divisible by 5 but not 3' do
+      it 'returns "buzz"' do
+        expect(solver.fizzbuzz(5)).to eq('buzz')
+        expect(solver.fizzbuzz(10)).to eq('buzz')
+      end
+    end
   end
 end

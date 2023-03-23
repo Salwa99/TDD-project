@@ -12,9 +12,7 @@ class Solver
     result
   end
 
-    def reverse(word)
-        word.reverse
-
-    end
-    
+  def reverse(word)
+    word.reverse
+  end
 end

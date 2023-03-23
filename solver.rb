@@ -16,15 +16,15 @@ class Solver
     word.reverse
   end
 
-  def fizzbuzz
-    if (n % 15).zero?
+  def fizzbuzz(num)
+    if (num % 15).zero?
       'fizzbuzz'
-    elsif (n % 3).zero?
+    elsif (num % 3).zero?
       'fizz'
-    elsif (n % 5).zero?
+    elsif (num % 5).zero?
       'buzz'
     else
-      n.to_s
+      num.to_s
     end
   end
 end

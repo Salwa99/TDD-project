@@ -24,4 +24,13 @@ RSpec.describe Solver do
       expect(solver.reverse('microverse')).to eq('esrevorcim')
     end
   end
+
+  describe '#fizzbuzz' do
+    context 'A number that is divisible by 3 and 5' do
+      it 'returns "fizzbuzz"' do
+        expect(solver.fizzbuzz(15)).to eq('fizzbuzz')
+        expect(solver.fizzbuzz(45)).to eq('fizzbuzz')
+      end
+    end
+  end
 end
